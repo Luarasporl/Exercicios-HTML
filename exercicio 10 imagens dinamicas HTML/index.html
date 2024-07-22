@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagens dinamicas</title>
+</head>
+<body>
+    <h1>imagens dinamicas</h1> <hr>
+    <picture>
+        <source media="(max-width: 650px)" srcset="imagem_pequena.png" type="image/png">
+        <source media="(max-width: 850px)" srcset="imagem_média.png" type="image/png">
+        <img src="imagem_grande.png" alt="imagem flexível">
+    </picture>
+</body>
+</html>
